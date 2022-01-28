@@ -70,52 +70,50 @@ section {
     height: 100px;
     background: blueviolet;
     border: 10px solid black;
-    display: flex;
-    flex-direction: row;
-    float: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
 }
 
 .box5 {
-    width: 80%;
+    width: 300px;
     height: 10px;
     background: #00ff15;
-    margin: 5px;
-    float: left;
+    margin: 10px;
+    display: inline-block;
 }
 
 .box6 {
-    width: 80%;
+    width: 300px;
     height: 10px;
     background: #00ff15;
-    margin: 5px;
-    float: left;
-    
+    margin: 10px;
+    display: inline-block;
 }
 
 .box7 {
-    width: 50%;
+    width: 300px;
     height: 10px;
     background: #00ff15;
-    margin: 5px;
-    float: left;
-    
+    margin: 10px;
+    display: inline-block;
 }
 
 .box8 {
-    width: 50%;
+    width: 300px;
     height: 10px;
     background: #00ff15;
-    margin: 5px;
-    float: left;
+    margin: 10px;
+    display: inline-block;
     
 }
 
 .box9 {
-    width: 90%;
+    width: 400px;
     height: 10px;
     background: #00ff15;
     margin: 5px;
-    float: left;
+    display: inline-block;
     
 }
 
