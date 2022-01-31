@@ -2,14 +2,14 @@
     width: 1200px;
     padding: 0;
     margin: 0;
-} */
+}
 
 body {
     background: #f2f2f2;
 }
 
 header {
-    width: 1280px;
+    width: 1180px;
     height: 70px;
     background: brown;
     border: 10px solid black;
@@ -43,7 +43,7 @@ header {
 }
 
 nav {
-    width: 1280px;
+    width: 1180px;
     height: 70px;
     background: orange;
     border: 10px solid black;
@@ -110,7 +110,7 @@ section {
 }
 
 .box9 {
-    width: 400px;
+    width: 500px;
     height: 10px;
     background: #00ff15;
     margin: 5px;
@@ -144,7 +144,7 @@ aside {
 }
 footer {
     margin-top: 10px;;
-    width: 1200px;
+    width: 1180px;
     height: 15px;
     background: yellow;
     border: 10px solid black;
@@ -156,29 +156,23 @@ footer {
     }
     
     section {
-        width: 100%;
         display: block;
         border: 20px, solid, yellow;
     }
     aside {
-        width: 100%;
         display: block;
         border: 20px, solid, yellow;
     }   
 }
 
 @media (max-width: 375px) {
-    .container {
-        flex-direction: column;
-    }
+
     
     section {
-        width: 100%;
         display: block;
         border: 20px, solid, yellow;
     }
     aside {
-        width: 100%;
         display: block;
         border: 20px, solid, yellow;
     }   
