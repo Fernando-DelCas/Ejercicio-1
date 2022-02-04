@@ -42,7 +42,7 @@ nav {
     border: 10px solid black;
 }
 
-.box4 {
+.box3 {
     width: 95%;
     height: 10px;
     background: #ffe600;
@@ -62,7 +62,7 @@ section {
     border: 10px solid black;
 }
 
-.box3 {
+.box4 {
     width: 35%;
     height: 10px;
     background: #00ff15;
@@ -137,7 +137,7 @@ footer {
         border: 10px solid black;
     }
 
-    .box4 {
+    .box3 {
         width: 90%;
         height: 10px;
         background: #ffe600;
@@ -157,7 +157,7 @@ footer {
         display: block;
         border: 20px, solid yellow;
     }
-    .box3 {
+    .box4 {
         width: 90%;
         height: 10px;
         background: #00ff15;
@@ -233,7 +233,7 @@ footer {
         border: 10px solid black;
     }
 
-    .box4 {
+    .box3 {
         width: 90%;
         height: 25px;
         background: #ffe600;
@@ -256,7 +256,7 @@ footer {
         flex-direction: column;
     }
 
-    .box3 {
+    .box4 {
         width: 90%;
         height: 25px;
         background: #00ff15;
