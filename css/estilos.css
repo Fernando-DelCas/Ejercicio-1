@@ -1,10 +1,10 @@
 * {
-    max-width: 1200px;
     padding: 0;
     margin: 0;
 }
 
 body {
+    max-width: 1200px;
     background: #f2f2f2;
 }
 
@@ -13,13 +13,12 @@ header {
     height: 70px;
     background: brown;
     border: 10px solid black;
-    overflow: hidden;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.box1 {
+.box {
     width: 20%;
     height: 10px;
     background: #270e96;
@@ -35,12 +34,6 @@ header {
     margin: 25px;
     
 }
-.box3 {
-    width: 20%;
-    height: 10px;
-    background: #270e96;
-    margin: 25px;
-}
 
 nav {
     width: 1180px;
@@ -53,67 +46,38 @@ nav {
     width: 95%;
     height: 10px;
     background: #ffe600;
-    margin: 5px;
-    position: relative;
-    top:25px;
-    left: 20px;
+    margin: 25px;
 }
 
-.container {
+article {
     margin-top: 10px;
     width: 1200px;
     display: flex;
 }
 
 section {
-    width: 780px;
+    width: 80%;
     height: 100px;
     background: blueviolet;
     border: 10px solid black;
 }
 
+.box3 {
+    width: 35%;
+    height: 10px;
+    background: #00ff15;
+    margin: 10px 50px;
+    display: inline-block;
+}
+
 .box5 {
-    width: 300px;
+    width: 83%;
     height: 10px;
-    background: #00ff15;
+    background: blue;
     margin: 10px 50px;
-    display: inline-block
-}
-
-.box6 {
-    width: 300px;
-    height: 10px;
-    background: #00ff15;
-    margin: 10px 25px;
-    display: inline-block;
-}
-
-.box7 {
-    width: 300px;
-    height: 10px;
-    background: #00ff15;
-    margin: 10px 50px;
-    display: inline-block;
-}
-
-.box8 {
-    width: 300px;
-    height: 10px;
-    background: #00ff15;
-    margin: 10px 25px;
     display: inline-block;
     
 }
-
-.box9 {
-    width: 680px;
-    height: 10px;
-    background: #00ff15;
-    margin: 5px 50px;
-    display: inline-block;
-    
-}
-
 
 aside {
     width: 380px;
@@ -123,7 +87,7 @@ aside {
    
 }
 
-.box10 {
+.box6 {
     width: 90%;
     height: 10px;
     background: #00ff15;
@@ -131,13 +95,6 @@ aside {
    
 }
 
-.box11 {
-    width: 90%;
-    height: 10px;
-    background: #00ff15;
-    margin: 10px;
-    margin-left: 20px;
-}
 footer {
     margin-top: 10px;;
     width: 1180px;
@@ -156,29 +113,23 @@ footer {
         border: 10px solid black;
         overflow: hidden;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 
-    .box1 {
-        width: 10%;
+    .box {
+        width: 20%;
         height: 10px;
         background: #270e96;
         margin: 25px;
     }
     
     .box2 {
-        width: 10%;
+        width: 40%;
         height: 10px;
         background: #270e96;
         margin: 25px;
     }
-    .box3 {
-        width: 10%;
-        height: 10px;
-        background: #270e96;
-        margin: 25px;
-    }
-
+    
     nav {
         width: 100%;
         height: 70px;
@@ -187,7 +138,7 @@ footer {
     }
 
     .box4 {
-        width: 95%;
+        width: 90%;
         height: 10px;
         background: #ffe600;
         margin: 5px;
@@ -195,77 +146,46 @@ footer {
         top:25px;
         left: 20px;
     }
-    .container {
+    article {
+        width: auto;
         flex-direction: column;
     }
     
     section {
-        width: 600px;
+        width: 100%;
+        height: auto;
         display: block;
-        border: 20px, solid, yellow;
+        border: 20px, solid yellow;
     }
-    .box5 {
-        width: 30%;
+    .box3 {
+        width: 90%;
         height: 10px;
         background: #00ff15;
-        margin: 10px 50px;
+        margin: 10px 25px;
         display: inline-block
     }
     
-    .box6 {
-        width: 30%;
+    .box5 {
+        width: 90%;
         height: 10px;
-        background: #00ff15;
+        background: blue;
         margin: 10px 25px;
-        display: inline-block;
-    }
-    
-    .box7 {
-        width: 30%;
-        height: 10px;
-        background: #00ff15;
-        margin: 10px 50px;
-        display: inline-block;
-    }
-    
-    .box8 {
-        width: 30%;
-        height: 10px;
-        background: #00ff15;
-        margin: 10px 25px;
-        display: inline-block;
-        
-    }
-    
-    .box9 {
-        width: 73%;
-        height: 10px;
-        background: #00ff15;
-        margin: 5px 50px;
         display: inline-block;
         
     }
     
     aside {
-        width: 600px;
+        width: 100%;
         display: block;
-        border: 20px, solid, yellow;
+        border: 20px, solid yellow;
     }  
-    .box10 {
-        width: 75%;
+
+    .box6 {
+        width: 90%;
         height: 10px;
         background: #00ff15;
-        margin: 25px;
-       
-    }
-    
-    .box11 {
-        width: 75%;
-        height: 10px;
-        background: #00ff15;
-        margin: 25px;
-        margin-left: 25px;
-    } 
+        margin: 20px;
+     }
     footer {
         margin-top: 10px;;
         width: 100%;
@@ -277,15 +197,101 @@ footer {
 
 @media (max-width: 375px) {
 
+    body {
+        max-width: 375px;
+        background: #f2f2f2;
+    }
+
+    header {
+        width: 100%;
+        height: auto;
+        background: brown;
+        border: 10px solid black;
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .box {
+        width: 90%;
+        height: 25px;
+        background: #270e96;
+        margin: 20px;
+    }
+    
+    .box2 {
+        width: 90%;
+        height: 25px;
+        background: #270e96;
+        margin: 20px;
+    }
+
+    nav {
+        width: 100%;
+        height: 75px;
+        background: orange;
+        border: 10px solid black;
+    }
+
+    .box4 {
+        width: 90%;
+        height: 25px;
+        background: #ffe600;
+        margin: 1px;
+   
+    }
+
+    article {
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
     
     section {
         width: 100%;
-        display: block;
-        border: 20px, solid, yellow;
+        height: auto;
+        background: blueviolet;
+        border: 10px solid yellow;
+        flex-direction: column;
+    }
+
+    .box3 {
+        width: 90%;
+        height: 25px;
+        background: #00ff15;
+        margin: 10px 20px;
+        display: inline-block
+    }
+    
+    .box5 {
+        width: 90%;
+        height: 25px;
+        background: blue;
+        margin: 5px 20px;
+        display: inline-block;
+        
     }
     aside {
         width: 100%;
-        display: block;
-        border: 20px, solid, yellow;
-    }   
+        height: auto;
+        background: blue;
+        border: 10px solid yellow;
+    }
+
+    .box6 {
+        width: 90%;
+        height: 25px;
+        background: #00ff15;
+        margin: 20px;
+     }
+
+    footer {
+        margin-top: 10px;;
+        width: 100%;
+        height: 30px;
+        background: yellow;
+        border: 10px solid black;
+    }
 }
+
